@@ -1,0 +1,36 @@
+
+$primary-ow-color: #460a8b;
+$info-ow-color: #6f489b;
+$ow-color-very-light: #460a8b4d;
+$success-ow-color: #00a06d;
+$warning-ow-color: #e2aa00;
+$danger-ow-color: rgb(221, 38, 38);
+
+$grad-bg-color: linear-gradient(-225deg, #460a8b 5%, #6f489b 100%);
+
+@import "bootstrap-scss/bootstrap.scss";
+
+.btn-danger, .btn-warning, .btn-info, .btn-success {
+    color: #fff;
+}
+
+.btn-danger:hover, .btn-warning:hover, .btn-info:hover, .btn-success:hover {
+    color: #fff;
+}
+
+.btn-light {
+    color: $primary-ow-color;
+}
+
+.btn-light:hover {
+    color: #000;
+    background-color: rgb(236, 236, 236);
+}
+
+.bg-grad-primary {
+    background: $grad-bg-color;
+}
+
+.my-shadow {
+    box-shadow: 0 0.5rem 1rem $ow-color-very-light !important;
+}
